@@ -1,0 +1,14 @@
+@media screen and (max-width:780px){
+    .sideBar{
+        width: 300px !important;
+        position: fixed;
+        background-color: rgb(245, 230, 230);
+        display: block !important;
+        z-index: 2000;
+        margin-left: -100%;
+        transition: linear 0.5s;
+    }
+    .tooMuchMb{
+        margin-top: 105px !important;
+    }
+}

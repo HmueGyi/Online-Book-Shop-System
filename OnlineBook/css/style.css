@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* :root{
+    --primary-color: #f6f1f4;
+} */
+a:link{
+    text-decoration: none;
+}
+.content{
+    background-color:var(--primary-color);
+    overflow: scroll;
+}
+
+
+.user-profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+li .logout:hover{
+    background-color: #dc3545;
+    color: white;
+}
+.card{
+    border:none !important;
+}
+.status-card{
+    transition: 0.5s;
+
+}
+.status-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.status-card:active{
+    transform: scale(1.04);
+}
+
+/* user images */
+.userImgs img{
+    margin-left: -24px;
+}
+.userImgs img::before{
+    content: "User1";
+}
+.userImgs img:hover{
+  transform: scale(1.2);
+}
+.tooltips {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltips .tooltiptext {
+    visibility: hidden;
+    /* display: none; */
+    width: 120px;
+    background-color: #0d6fdf;
+    color: #f6f1f4;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltips:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/* items */
+.item-carosel{
+    margin-top: -145px;
+}
+.items-img{
+    height: 250px;
+    width: 200px;
+}
+/* 
+SubscriberList style
+*/
+.subscriberList tr{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.subscriberList tr:active{
+    transform: scale(1.02);
+}
+/* .subscriberList{
+    width: 501.56px;
+    height: 566px;
+    overflow: hidden;
+} */
+/* menu links  */
+.menu-Item-links,.dash{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-Item-links:hover,.dash:hover{
+    background-color: var(--primary-color);
+}
+.menu-Item-links:visited{
+    background-color: #0d6efd !important;
+   border-radius:  .25rem!important;
+}
+.menu-Item-title{
+    padding: 10px 0;
+}
+.menu-Item-links a{
+    color: black;
+}
+.dash a{
+    color: black;
+}
+.menu-Item-links a:hover, .dash a:hover{
+    color: inherit;
+}
+.menu-Item-spacer{
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0px !important;
+    margin: 0px;
+}
+/* .dash{
+    background-color: #0d6efd;
+} */
+.sideBar{
+    overflow: scroll;
+}
+.logodiv{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    margin-bottom: 10px;
+    /* margin-bottom: 500px; */
+}
