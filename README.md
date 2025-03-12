@@ -56,4 +56,4 @@ The system uses a `booklist` table with the following columns:
 This project is open-source under the MIT License.
 
 ## Contact
-For inquiries, please contact [your-email@example.com].
+For inquiries, please contact [hmuesett2002@gmail.com].
